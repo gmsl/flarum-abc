@@ -1,0 +1,27 @@
+{
+    "name": "gmsl/flarum-abc",
+    "description": "A Flarum extension that allows alphabetical sorting of posts.",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": "^0.1.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Alphabetical Posts",
+            "icon": "fas fa-sort-alpha-down",
+            "authors": [
+                {
+                    "name": "Gabor Meisl",
+                    "email": "",
+                    "homepage": "https://",
+                    "role": "Developer"
+                }
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "gmsl\\flarum-abc\\": "src/"
+        }
+    }
+}
