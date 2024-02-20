@@ -1,0 +1,4 @@
+flarum-abc:
+  forum:
+    sort:
+      alphabetical: "Alphabetical"
