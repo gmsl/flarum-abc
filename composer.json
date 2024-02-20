@@ -3,7 +3,7 @@
     "description": "A Flarum extension that allows alphabetical sorting of posts.",
     "type": "flarum-extension",
     "require": {
-        "flarum/core": "^0.1.0"
+        "flarum/core": "^1.1.0"
     },
     "extra": {
         "flarum-extension": {
