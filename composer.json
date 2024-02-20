@@ -3,7 +3,7 @@
     "description": "A Flarum extension that allows alphabetical sorting of posts.",
     "type": "flarum-extension",
     "require": {
-        "flarum/core": "^1.1.0"
+        "flarum/core": "^1.6.0"
     },
     "extra": {
         "flarum-extension": {
@@ -13,7 +13,7 @@
                 {
                     "name": "Gabor Meisl",
                     "email": "",
-                    "homepage": "https://",
+                    "homepage": "https://blank",
                     "role": "Developer"
                 }
             ]
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "gmsl\\flarum-abc\\": "src/"
+            "Gmsl\\FlarumAbc\\": "src/"
         }
     }
 }
