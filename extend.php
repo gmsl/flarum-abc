@@ -1,12 +1,14 @@
 <?php
 
 use Flarum\Extend;
-use Flarum\Post\Post;
-use Illuminate\Database\Eloquent\Builder;
+use Gmsl\FlarumAbc\Providers\SorterProvider;
 
 return [
-    (new Extend\Model(Post::class))
-        ->addGlobalScope('alphabetical', function (Builder $builder) {
-            $builder->orderBy('content', 'asc');
-        }),
+    (new Extend\Frontend('forum'))
+        ->js(__DIR__.'/js/dist/forum.js')
+        ->css(__DIR__.'/resources/less/forum.less'),
+
+    new Extend\Locales(__DIR__.'/resources/locale'),
+
+    new SorterProvider(),
 ];
